@@ -1,0 +1,68 @@
+#greycol {
+  color: grey;
+}
+.yellow {
+  color: yellow;
+}
+h3:first-child {
+  color: pink;
+}
+p:only-child {
+  color: red;
+}
+p:nth-child(7) {
+  color: green;
+}
+/* Розклад */
+.monday-item:nth-child(even) {
+  color: blue;
+}
+.monday-item:nth-child(odd) {
+  color: yellow;
+}
+.tuesday-item {
+  color: cornflowerblue;
+  cursor: not-allowed;
+}
+.tuesday-item:hover {
+  color: olive;
+}
+.wednesday-item:nth-child(3n) {
+  color: crimson;
+}
+a:link {
+  color: darkred;
+}
+a:visited {
+  color: darkblue;
+}
+.link:active {
+  color: red;
+}
+.link {
+  cursor: cell;
+}
+button:focus {
+  color: peachpuff;
+}
+.thursday-item {
+  color: steelblue;
+}
+.thursday-item:nth-child(n + 4) {
+  color: lightblue;
+}
+.thursday-item:hover {
+  color: lightsalmon;
+}
+.friday-item:last-child {
+  color: brown;
+}
+.friday-item:nth-child(-n + 2) {
+  color: darkblue;
+}
+.friday-item:nth-child(4) {
+  color: chartreuse;
+}
+a {
+  text-decoration: none;
+}
